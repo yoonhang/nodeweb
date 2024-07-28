@@ -1,0 +1,24 @@
+CREATE TABLE `contact` (
+	`idx` INT(11) NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf16_general_ci',
+	`phone` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf16_general_ci',
+	`email` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf16_general_ci',
+	`memo` TEXT(32767) NULL DEFAULT NULL COLLATE 'utf16_general_ci',
+	`regdate` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf16_general_ci',
+	PRIMARY KEY (`idx`) USING BTREE
+)
+COLLATE='utf16_general_ci'
+ENGINE=InnoDB
+;
+
+CREATE TABLE `member` (
+	`idx` INT(11) NOT NULL AUTO_INCREMENT,
+	`user_id` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf16_general_ci',
+	`pw` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf16_general_ci',
+	`name` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf16_general_ci',
+	PRIMARY KEY (`idx`) USING BTREE
+)
+COLLATE='utf16_general_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=2
+;
