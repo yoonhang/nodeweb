@@ -1,3 +1,16 @@
+
+git init
+git remote add origin https://github.com/yoonhang/python2.git
+git add .
+git commit -m "first commit"
+git branch -M main
+git push -u origin main
+========================
+
+유니다고, 버전업수정
+https://www.youtube.com/watch?v=LmgVzUJGYN4&list=PLLtzrE3hP5ST8nyMyVACCdcwmjxx8CATm&index=4
+
+
 노드 버전 다운필요
 npm install -g npm@^6.14.0
 
