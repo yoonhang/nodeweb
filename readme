@@ -1,4 +1,10 @@
+sessioin
+login/logout
+mysql
+email
 
+
+========================
 git init
 git remote add origin https://github.com/yoonhang/python2.git
 git add .
