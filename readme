@@ -3,14 +3,6 @@ login/logout
 mysql
 email
 
-
-========================
-git init
-git remote add origin https://github.com/yoonhang/python2.git
-git add .
-git commit -m "first commit"
-git branch -M main
-git push -u origin main
 ========================
 
 유니다고, 버전업수정
