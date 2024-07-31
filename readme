@@ -2,6 +2,12 @@ session
 login/logout
 mysql
 email
+------------------------
+express
+ejs
+body-parser
+res.locals(모든 페이지 세션공유)
+express-session
 
 ========================
 
